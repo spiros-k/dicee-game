@@ -1,0 +1,83 @@
+
+@media  (max-width: 300px) {
+    body{
+        background-color: rgb(1, 205, 72);
+    }
+
+    h1{
+        color: rgb(100, 5, 5);
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 3.5rem;
+    }
+
+    h3{
+        color: rgb(100, 5, 5);
+        font-family: 'Grechen Fuemen', cursive;
+    }
+
+}
+
+@media (min-width: 300.1px) and (max-width: 500px) {
+    body{
+        background-color: rgb(1, 205, 72);
+    }
+
+    .player-one, .player-two, p{
+        text-align: center;
+    }
+
+    h1{
+        color: rgb(100, 5, 5);
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 3.5rem;
+    }
+
+    h3{
+        color: rgb(100, 5, 5);
+        font-family: 'Grechen Fuemen', cursive;
+    }
+
+}
+
+@media (min-width: 500.1px) and (max-width: 800px) {
+    body{
+        background-color: rgb(1, 205, 72);
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-around;
+    }
+
+    h1{
+        color: rgb(100, 5, 5);
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 3.5rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    h3{
+        color: rgb(100, 5, 5);
+        font-family: 'Grechen Fuemen', cursive;
+    }
+
+
+
+}
+
+@media (min-width: 800.1px) and (max-width: 1200px) {
+    body{
+        background-color: rgb(1, 205, 72);
+    }
+
+    h1{
+        color: rgb(100, 5, 5);
+        font-family: 'Luckiest Guy', cursive;
+        font-size: 3.5rem;
+    }
+
+    h3{
+        color: rgb(100, 5, 5);
+        font-family: 'Grechen Fuemen', cursive;
+    }
+
+}
